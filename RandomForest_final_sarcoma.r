@@ -1,4 +1,24 @@
 ########
+# Run the RandomForest Classifier
+# for Bone Sarcomas. July 29, 2017
+# 
+# Developer: S. Peter Wu, M.D. 
+# peter.wu10@nyumc.org
+#
+# for those who wish to process their own beta-values, 
+# the (very large!) .idat files, please see GSE
+# 
+# for those who wish to use the beta-values within this file 
+# (ie. beta_tCGA, beta_Tirado, beta_TARGET_OS)
+# please contact me at above email address 
+# 
+# the csv files for the beta-values of the test samples (1,2,3)
+# are found within this branch of the edit. 
+#
+# this is the final version of this code and will not be maintained further, 
+# the next will be published on CRAN. 
+# 
+########
 
 # read the gene csv with the B-values for the methylation profile
 #bset = read.csv("R:\\karajannislabspace\\Projects\\Project 07 Sarcoma\\Results_Gold_7_11_2016_4\\tracks_and_tables_data\\csv\\betas_1.csv")
